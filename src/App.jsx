@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-import Biography from "./components/Biography";
-import RedesSociales from "./components/RedesSociales";
-import DatosPersonales from "./components/DatosPersonales";
-import Habilidades from "./components/Habilidades";
+import Header from "./Components/Header";
+import Biography from "./Components/Biography";
+import RedesSociales from "./Components/RedesSociales";
+import DatosPersonales from "./Components/DatosPersonales";
+import Habilidades from "./Components/Habilidades";
 //import Conexion from "./Components/Conexion";
-import Login from "./components/Login";
+import Login from "./Components/Login";
 import { useState } from "react";
 
 function App() {
