@@ -1,6 +1,3 @@
-import React from "react";
-import ProjectCards from "./ProjectCards";
-
 
 function Habilidades(){
 return (

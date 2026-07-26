@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 function Login({ Entrar }) {
   // Estados para capturar los datos que el usuario escribe
