@@ -1,6 +1,4 @@
 //Componente: Encabezado
-import React from "react";
-
 function Header({ cambiarVista }) {
   return (
     <header>
