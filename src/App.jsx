@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./components/Header";
 import Biography from "./components/Biography";
 import RedesSociales from "./Components/RedesSociales";
