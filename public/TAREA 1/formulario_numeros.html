@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 1</title>
+    <!-- Invocamos hoja de estilo css con link -->
+    <link rel="stylesheet" href="STYLES.CSS">
+</head>
+<body>
+
+    <!-- Div que encierra el form completo -->
+    <div>
+    <H1>Actividad 1: Formulario para leer tres números</H1>
+
+    <p>Crear un archivo llamado: <b>formulario_numeros.html</b> </p>
+
+    <p>El formulario debe solicitar al usuario tres números.</p>
+
+    <h2>Campos obligatorios</h2>
+
+    <!-- Apertura del formulario de numeros -->
+        <form>
+
+            <!-- Ranura fieldset para encerrar el conjunto de datos a llenar -->
+            <fieldset>
+                
+                <!-- leyenda o titulo del fieldset -->
+                <legend>Ingresar Numeros</legend>
+
+                <!-- etiqueta label del input numerico a ingresar -->
+                <label for="numero1">1er Número</label>
+                <input type="number" name="numero1" required>
+
+                <br>
+
+                <!-- etiqueta label del input numerico a ingresar -->
+                <label for="numero2">2do Número</label>
+                <input type="number" name="numero2" required>
+                
+                <br>
+
+                <!-- etiqueta label del input numerico a ingresar -->
+                <label for="numero3">3er Número</label>
+                <input type="number" name="numero3" required>
+
+                <br>
+                
+                <!-- boton tipo submit para enviar datos llenados en el formulario -->
+                <input type="submit" value="ENVIAR" class="enviar">
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>

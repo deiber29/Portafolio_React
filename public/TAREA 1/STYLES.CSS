@@ -1,0 +1,73 @@
+body {
+    background-image: url('FONDO.png');
+    background-size: cover;
+}
+
+b { 
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 28px;
+    margin-left: 20px;
+}
+div {
+    padding: 10px;
+    background-color:white;
+    border-radius: 8px;
+    width: 40%;
+    height: 700px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 5px;
+    width: 70%;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+label { 
+    margin-left: 5%;
+}
+
+.enviar {
+    background-color:mediumturquoise;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+fieldset {
+    border-radius: 8px;
+    font-size: 28px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+legend {
+    margin-left: 35%;
+    margin-right: 25%;
+}

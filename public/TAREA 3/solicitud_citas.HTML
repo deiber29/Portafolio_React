@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Invocamos hoja de estilo css con link -->
+    <link rel="stylesheet" href="STYLES.CSS">
+    <title>TAREA 3</title>
+</head>
+<body>
+    
+    <!-- div principal que encierra el form y todo su contenido -->
+   <div class="div-principal">
+    <h1>Actividad 3: Formulario de solicitud de citas</h1>
+
+    <!-- apertura del form -->
+    <form>
+        <!-- div para la primera fila del form -->
+        <div class="div-1">
+            <!-- label en input de la primera fila -->
+            <label for="nombre" class="label-1">Nombre completo:</label>
+            <label for="cedula" class="label-2">Cédula o documento de identidad:</label><br>
+            <input type="text" id="nombre" name="nombre_completo" placeholder="Ej. Juan Pérez" required>
+            <input type="text" id="cedula" name="cedula_identidad" placeholder="Número de documento" required>
+        </div>
+
+        <!-- div para la segunda fila del form -->
+        <div class="div-2">
+            <!-- label en input de la segunda fila -->
+            <label for="correo" class="label-3">Correo electrónico:</label>
+            <label for="telefono" class="label-4">Teléfono:</label><br>
+            <input type="email" id="correo" name="correo_electronico" placeholder="usuario@correo.com" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej. +58000000000" required>
+        </div>
+
+        <!-- div para la tercera fila del form -->
+        <div class="div-3">
+            <!-- label en input de la tercera fila -->
+            <label for="fecha" class="label-5">Fecha de la cita:</label>
+            <label for="hora" class="label-6">Hora de la cita:</label><br>
+            <input type="date" id="fecha" name="fecha_cita" required>
+            <input type="time" id="hora" name="hora_cita" required>
+        </div>
+
+        <!-- div para la cuarta fila del form -->
+        <div class="div-4">
+            <!-- label en input con textarea de la cuarta fila para llenar motivo de la cita de forma abierta -->
+            <label for="motivo" class="label-7">Motivo de la cita:</label><br>
+            <textarea id="motivo" name="motivo_cita" placeholder="Breve descripción del motivo..." required></textarea>
+        </div>
+
+        <br>
+
+        <!-- boton de enviar informacion -->
+        <button type="submit" class="btn-enviar" name="enviar_solicitud">Solicitar Cita</button>
+    </form>
+</div>
+
+</body>
+</html>
